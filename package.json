@@ -22,9 +22,14 @@
     "typescript",
     "nodejs"
   ],
-  "author": "Your Name",
+  "author": "Mohamed Shafnas",
   "license": "MIT",
   "description": "A Node.js/TypeScript library for password security and account lockout policies.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mshafnas/auth-security-lib.git"
+  },
+  "homepage": "https://github.com/mshafnas/auth-security-lib#readme",
   "devDependencies": {
     "@types/node": "^25.2.3",
     "ts-node": "^10.9.2",
