@@ -1,0 +1,37 @@
+{
+  "name": "@shafnas/auth-security-lib",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "ts-node src/index.ts",
+    "test-demo": "ts-node examples/test.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "auth",
+    "security",
+    "password",
+    "lockout",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "description": "A Node.js/TypeScript library for password security and account lockout policies.",
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3"
+  }
+}
