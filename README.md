@@ -13,13 +13,13 @@ It helps enforce:
 ## Installation
 
 ```bash
-npm install auth-security-lib
+npm install @shafnas/auth-security-lib
 ```
 
 or with Yarn:
 
 ```bash
-yarn add auth-security-lib
+yarn add @shafnas/auth-security-lib
 ```
 
 # Features
